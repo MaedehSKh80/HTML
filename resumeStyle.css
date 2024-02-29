@@ -1,0 +1,77 @@
+html{
+    font-family: pelak;
+    font-size: 100%;
+}
+
+@font-face{
+    font-family: pelak;
+    src:     url(./fonts/PelakFA-light.woff2) format("woff2"),
+             url(./fonts/PelakFA-light.woff) format("woff"),
+             url(./fonts/PelakFA-light.eot) format("embedded-opentype"),
+             url(./fonts/PelakFA-light.ttf) format("truetype");
+}
+section {
+    float: left;
+    width: 70%;
+}
+aside{
+    align-items: center;
+    background-color: aquamarine;
+    float: right;
+    width: 30%;
+}
+img{
+    height: 20vh;
+}
+.clearfix::after,
+.clearfix::before{
+    content:"" ;
+    display: table;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
+p{
+    padding-top: 1px;
+    margin-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 6px;
+    font: 1rem/1.8 pelak;
+
+}
+link:hover {
+    background-color: red;
+}
+
+li {
+    background-color: aquamarine;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 6px;
+    float:left;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 40%;
+    text-align: center;
+    font: 0.8rem/1.8 pelak;
+}
+body{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+img{
+    margin: 0.5rem;
+}
+h3{
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+h1{
+    margin-bottom: 30px;
+}

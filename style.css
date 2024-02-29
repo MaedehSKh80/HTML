@@ -1,19 +1,84 @@
-/* این برای راست چین شدن کل سایته */
+html{
+    font-family: pelak;
+    font-size: 100%;
+}
+
+@font-face{
+    font-family: pelak;
+    src:     url(./fonts/PelakFA-light.woff2) format("woff2"),
+             url(./fonts/PelakFA-light.woff) format("woff"),
+             url(./fonts/PelakFA-light.eot) format("embedded-opentype"),
+             url(./fonts/PelakFA-light.ttf) format("truetype");
+}
+
+header {
+    
+    background: linear-gradient( #e1a3b8,#7a90c2);
+    height: 20%;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+/* راست چین شدن کل سایت
+فونت سایز
+تکست حالت جاستیفای
+ورد برکش روی برک ال */
 body{
- direction:rtl;
+    background: linear-gradient(#7a90c2,#e1a3b8);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    direction:rtl;
+    font: 1rem/2 ;
+    text-align: justify;
+    word-break: break-all;
 }
 
 
 /* رنگی بودن بک گراند هدر بالا */
  li {
-    background-color: rgb(190, 190, 249);
-    color: rgb(0, 0, 0);
+    background-color: rgb(56, 56, 90);
+    color: rgb(255, 255, 255);
+}
+
+ul li {
+    width: 40%;
+    background-clip: content-box;
+    text-align: center;
+    margin: 10px;
+
 }
 
 
 /* وقتی روی لیست موس رد میشه رنگش تغییر کنه */
 li:hover {
-    background-color: rgb(129, 176, 247);
+    background-color: rgb(153, 179, 218);
+    color: rgb(28, 22, 71);
+
 }
 
+
+
+/* برای زیبایی متن h1 */
+h1 {
+    box-sizing: border-box;
+    background-origin: border-box;
+    padding: 10px;
+    text-align: center;
+    color: rgb(28, 22, 71);
+
+}
+h1:hover {
+    color: rgb(50, 39, 128);
+
+}
+footer {
+    background-attachment: fixed;
+    padding: 10px;
+    height: 20%;
+    margin: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
 
