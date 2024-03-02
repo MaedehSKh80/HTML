@@ -1,0 +1,85 @@
+html{
+    font-family: pelak;
+    font-size: 100%;
+}
+
+@font-face{
+    font-family: pelak;
+    src:     url(./fonts/PelakFA-light.woff2) format("woff2"),
+             url(./fonts/PelakFA-light.woff) format("woff"),
+             url(./fonts/PelakFA-light.eot) format("embedded-opentype"),
+             url(./fonts/PelakFA-light.ttf) format("truetype");
+}
+
+.clearfix::after,
+.clearfix::before{
+    content:"" ;
+    display: table;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
+
+/* راست چین شدن کل سایت
+فونت سایز
+تکست حالت جاستیفای
+ورد برکش روی برک ال */
+body{
+    margin: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    direction:rtl;
+    font: 1rem/2 ;
+    text-align: justify;
+    word-break: normal;
+}
+
+
+section {
+    text-align: right;
+    float: right;
+    width: 50%;
+}
+header{
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+.up{
+    text-align: center;
+}
+
+.foot {
+    position: relative;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, rgba(196, 178, 240,0.5),rgba(117, 116, 154, 0.5));
+}
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    border-radius: 10px;
+}
+h2{
+    padding: 20px;
+    padding-bottom: 0px;
+}
+p{
+    padding: 20px;
+    padding-top: 0px;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px
+}
+.button{
+    text-align: center;
+}
+.up img{
+    padding: 1vw;
+    height: 50vh;
+}
