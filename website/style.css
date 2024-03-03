@@ -11,3 +11,9 @@ html{
              url(./fonts/PelakFA-light.ttf) format("truetype");
 }
 
+.section{
+    background-color: thistle;
+    text-align: center;
+    padding: 2rem 0rem;
+    color: white;
+}
