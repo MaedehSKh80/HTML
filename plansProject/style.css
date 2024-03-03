@@ -1,0 +1,57 @@
+html{
+    font-family: pelak;
+    font-size: 100%;
+}
+
+@font-face{
+    font-family: pelak;
+    src:     url(./fonts/PelakFA-light.woff2) format("woff2"),
+             url(./fonts/PelakFA-light.woff) format("woff"),
+             url(./fonts/PelakFA-light.eot) format("embedded-opentype"),
+             url(./fonts/PelakFA-light.ttf) format("truetype");
+}
+body{
+    background-color:#ecedef ;
+    text-align: center;
+
+}
+p{
+    margin: 20px;
+}
+
+section{
+    vertical-align:middle;
+    text-align: center;
+    align-content: center;
+}
+.box{
+    width:25rem;
+    word-break: normal;
+    font: 0.5rem/2 ;
+    direction:rtl;
+    border-radius: 10px;
+    float: right;
+    height: min-content;
+    background-color: #f5f6fa;
+    margin: 1rem;
+    filter: drop-shadow(1px 1px 1rem rgba(154, 149, 149, 0.3));
+}
+
+.gray{
+    color: darkgray;
+}
+.blue {
+    color: blue;
+}
+button{
+    font-family: pelak;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+    background-color: rgb(63, 63, 226);
+    color: #f5f6fa;
+}
+.box:hover {
+    filter: drop-shadow(2px 2px 2rem rgba(77, 70, 215, 0.5));
+    background-color: white;
+}
