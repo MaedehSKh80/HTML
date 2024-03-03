@@ -11,33 +11,28 @@ html{
              url(./fonts/PelakFA-light.ttf) format("truetype");
 }
 body{
+    background-color:#ecedef ;
     text-align: center;
-    padding: 2rem;
-}
-header{
-    height: 30%;
-}
-section {
-    float: left;
-    width: 70%;
-    text-align: center;
-}
-aside{
-    background-color: rgb(239, 153, 153);
-    height: 100vh;
-    align-items: center;
-    float: right;
-    width: 30%;
-}
-.clearfix::after,
-.clearfix::before{
-    content:"" ;
-    display: table;
+
 }
 
-.clearfix::after{
-    clear: both;
+section{
+    vertical-align:middle;
+    text-align: center;
+    align-content: center;
 }
-footer {
-    padding: 30vh;
+.box{
+    width: 30%;
+    word-break: normal;
+    font: 1rem/2 ;
+    direction:rtl;
+    border-radius: 10px;
+    float: right;
+    height: 36vh;
+    background-color: #f5f6fa;
+    margin: 0.5rem;
+    filter: drop-shadow(1px 1px 1rem rgba(154, 149, 149, 0.3));
+}
+img{
+    margin-top: 10px;
 }
