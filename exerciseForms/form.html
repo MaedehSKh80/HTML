@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form action="#" class="form">
+            <center><h1>ثبت نام </h1></center>
+            <label for="name"> نام کاربری: </label>
+            <input type="text" name="name" placeholder="نام کاربری" class="formcontroll">
+
+            <label for="date">تاریخ تولدت :  </label>
+            <input type="date" name="date" id="date" class="formcontroll" >
+
+            <label for="number"> تلفن همراه :</label>
+            <input type="number" name="number" id="number" placeholder="09*********" class="formcontroll">
+
+            <label for="city"> انتخاب شهر </label>
+            <select name="city" id="city" class="formcontroll">
+                <option value="Tehran"> Tehran </option>
+                <option value="Gorgan"> Gorgan </option>
+                <option value="Rasht"> Rasht </option>
+                <option value="Esfahan"> Esfahan </option>
+                <option value="Mash-had"> Mash-had </option>
+                <option value="Khorasan"> Khorasan </option>
+                <option value="Shiraz"> Shiraz </option>
+                <option value="Karaj"> Karaj </option>
+            </select>
+
+            <label for="email"> ایمیل: </label>
+            <input type="email" name="email" id="email" placeholder="Example@Example.com" class="formcontroll"  >
+            <br>
+            <label for="password"> رمز عبور:  </label>
+            <input type="password" name="password" id="password" placeholder="****" class="formcontroll" > 
+
+            <section class="radio-section">
+                <div class="radio-list">
+                    <p>جنسیتت رو انتخاب کن</p>
+                    <div class="radio-item"><input name="radio" id="woman" type="radio"><label for="woman">دختر </label></div>
+                    <div class="radio-item"> <input name="radio" id="man" type="radio"><label for="man">پسر</label></div>
+                    <div class="radio-item"><input name="radio" id="nottosay" type="radio"><label for="nottosay">ترجیح میدم نگم</label></div>
+                </div>
+            </section>
+
+            <div class="checkbox-wrapper-2">
+            <label class="info" for="checkbox"><input type="checkbox" name="checkbox" id="checkbox" class="sc-gJwTLC ikxBAC" >مرا به خاطر بسپار</label>
+            </div>
+            <button type="submit" class="button-85" role="button"> ثبت نام</button>
+            <span class="checkmark"></span>
+        </form>
+    </section>
+    <center>
+        <footer>
+            <button > ورود با گوگل </button>
+            <button> ورود با لینکداین </button>
+            <button > ورود با گیت هاب </button>
+        </footer>
+    </center>
+
+</body>
+</html>
