@@ -38,7 +38,9 @@ body{
     text-align:center;
     word-break: normal;
 }
-
+img{
+    border-radius: 50%;
+}
 
 section {
     text-align: right;
